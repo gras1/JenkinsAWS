@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('DotNetBuild') {
       steps {
-        sh 'dotnet build'
+        sh 'cleanWs()'
       }
     }
 
