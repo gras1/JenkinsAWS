@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Foo1') {
+    stage('DotNetBuild') {
       steps {
         sh 'dotnet build'
       }
